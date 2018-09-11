@@ -4,7 +4,7 @@ class Database
     private static $dbName = 'goip' ;
     private static $dbHost = 'localhost' ;
     private static $dbUsername = 'root';
-    private static $dbUserPassword = 'P@55w0rd!';
+    private static $dbUserPassword = 'your-password';
     private static $cont  = null;
     public function __construct() {
         die('Init function is not allowed');
